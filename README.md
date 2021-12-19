@@ -18,7 +18,9 @@ The original code conducted its analysis by running the For Loop through the sto
 
 #### Run-time for Each Method and yearValue
 
+![](Original_2017.png)
 
+![](Original_2018.png)
 
 #### Refactored Run-time for Each Year
 
