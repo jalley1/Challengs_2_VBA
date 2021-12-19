@@ -18,6 +18,14 @@ The original code conducted its analysis by running the For Loop through the sto
 
 #### Run-time for Each Method and yearValue
 
+
+
+#### Refactored Run-time for Each Year
+
+![](VBA_Challenge_2017.png)
+
+![](VBA_Challenge_2018.png)
+
 #### Original Code
 
 Sub AllStocksAnalysisRefactored()
