@@ -16,13 +16,15 @@ We are refactoring our code for a friend named Steve. The original code's analys
 
 The original code conducted its analysis by running the For Loop through the stock's tickers array 12 times to determine the Total Daily Volume and Annual return for the 12 different stocks. To determine that information, we needed three different pieces of performance data: tickerVolumes, tickerStartingPrices, and tickerEndingPrices. To make the code more efficient, the goal is to run through the array one time by conducting the For Loop analysis on each stock as the macro goes through the array. The key to running through the tickers array one time is by collecting the three pieces of performance data for each different type of stock as the macro works through the tickers array. To do this, we turned our performance data (tickerVolumes, tickerStartingPrices, and tickerEndingPrices) into arrays. Using an additional variable, "tickerIndex", we can match the three performance arrays with our original tickers array.
 
-#### Run-time for Each Method and yearValue
+By examining the screenshots below, it shows a significant reduction in code run time from the Original code to the Refactored code.
 
-![](Original_2017.png)
+#### Screenshots of the Original Run-time for Each Year
 
-![](Original_2018.png)
+![](Original_2017.PNG)
 
-#### Refactored Run-time for Each Year
+![](Original_2018.PNG)
+
+#### Screenshots of the Refactored Run-time for Each Year
 
 ![](VBA_Challenge_2017.png)
 
